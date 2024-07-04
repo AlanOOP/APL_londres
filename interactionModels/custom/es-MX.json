@@ -1,0 +1,147 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [],
+          "name": "LaunchRequest",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "Ciudad",
+              "type": "LIST_OF_CITIES"
+            }
+          ],
+          "name": "DescripcionCiudadIntent",
+          "samples": [
+            "dime sobre {Ciudad}",
+            "cuéntame sobre {Ciudad}",
+            "descripción de {Ciudad}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "Ciudad",
+              "type": "LIST_OF_CITIES"
+            }
+          ],
+          "name": "LugaresTuristicosIntent",
+          "samples": [
+            "lugares turísticos en {Ciudad}",
+            "qué lugares puedo visitar en {Ciudad}",
+            "lugares para visitar en {Ciudad}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "Ciudad",
+              "type": "LIST_OF_CITIES"
+            }
+          ],
+          "name": "ComidaTipicaIntent",
+          "samples": [
+            "comida típica de {Ciudad}",
+            "qué comida es típica en {Ciudad}",
+            "platos típicos de {Ciudad}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "Ciudad",
+              "type": "LIST_OF_CITIES"
+            }
+          ],
+          "name": "TrajeTipicoIntent",
+          "samples": [
+            "traje típico de {Ciudad}",
+            "qué traje es típico en {Ciudad}",
+            "vestimenta tradicional de {Ciudad}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "Ciudad",
+              "type": "LIST_OF_CITIES"
+            }
+          ],
+          "name": "PersonajesSobresalientesIntent",
+          "samples": [
+            "personajes sobresalientes de {Ciudad}",
+            "figuras importantes de {Ciudad}",
+            "quiénes son importantes en {Ciudad}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "Ciudad",
+              "type": "LIST_OF_CITIES"
+            }
+          ],
+          "name": "MusicaIntent",
+          "samples": [
+            "música de {Ciudad}",
+            "qué música es popular en {Ciudad}",
+            "música típica de {Ciudad}"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ayuda",
+            "qué puedo decir",
+            "cómo funciona esto"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancelar",
+            "salir"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "detener",
+            "parar"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+            "no entiendo",
+            "repite eso",
+            "qué dijiste"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "London"
+                ],
+                "value": "Londres"
+              }
+            }
+          ],
+          "name": "LIST_OF_CITIES"
+        }
+      ],
+      "invocationName": "apllondres"
+    }
+  }
+}
